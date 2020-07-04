@@ -6,5 +6,6 @@ public class ClientMain {
     }
 
     private ClientMain() {
+
     }
 }
