@@ -5,7 +5,6 @@ enum TEAM {
     T
 }
 
-
 public class Player {
     private String name;
     private int money = 800;
@@ -66,5 +65,37 @@ public class Player {
         } else {
             System.out.println("Not enough money");
         }
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public int getMoney(){
+        return money;
+    }
+
+    public int getHeart(){
+        return heart;
+    }
+
+    public Colt getColt(){
+        return colt;
+    }
+
+    public Rifle getRifle(){
+        return rifle;
+    }
+
+    public Gun getCurrentGun(){
+        return currentGun;
+    }
+
+    public TEAM getTeam(){
+        return team;
+    }
+
+    public boolean isBomb(){
+        return bomb;
     }
 }

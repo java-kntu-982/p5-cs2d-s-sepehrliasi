@@ -13,4 +13,8 @@ public class Rifle extends Gun {
         super(name, price, damage, MFA, STR, magazineCapacity);
         this.accessibility = accessibility;
     }
+
+    public ACCESSIBILITY getAccessibility(){
+        return accessibility;
+    }
 }
