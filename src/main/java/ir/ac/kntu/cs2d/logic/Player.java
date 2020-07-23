@@ -5,6 +5,7 @@ enum TEAM {
     T
 }
 
+
 public class Player {
     private String name;
     private int money = 800;
